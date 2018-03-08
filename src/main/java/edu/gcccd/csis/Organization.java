@@ -11,10 +11,6 @@ public class Organization {
         this.orgName = orgName;
         this.numEmployees = numEmployees;
     }
-    public Organization(String orgName)
-    {
-        this(orgName, 0000);
-    }
     public Organization()
     {
         this("Unknown", 0000);

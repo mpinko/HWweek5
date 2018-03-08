@@ -16,10 +16,6 @@ public class Employee {
         this.orgWorkingFor = orgWorkingFor;
         this.birthday = birthday;
     }
-    public Employee(String name, String orgWorkingFor, double birthday)
-    {
-        this(name, null, orgWorkingFor, birthday);
-    }
     public Employee()
     {
         this(null, null, null, 00000000);
